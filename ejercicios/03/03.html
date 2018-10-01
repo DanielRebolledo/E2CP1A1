@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <title>banderas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .bandera{
+            width: 600px;
+            height: 400px;
+            margin: 30px;
+            border: 1px solid #000;
+            box-sizing: border-box;
+            position: relative;
+            float: left;
+            
+        }
+        .espana .rojo{
+            width: 100%;
+            height: 100px; 
+            background-color: #ff0000;            
+        }
+        .espana .amarillo{
+            width: 100%;
+            height: 200px;
+            background-color: #ffff00;
+        }
+/*DINAMARCA*/
+        .dinamarca .drojo{
+            background-color: #ff0000;
+            
+        }
+        .dinamarca .uno{
+            width: 30%;
+            height: 45%;
+            top: 0px;
+            left: 0px;
+            position: absolute;
+        }
+        .dinamarca .dos{
+            width: 30%;
+            height: 45%;
+            bottom: 0px;
+            left: 0px;
+            position: absolute;
+        }
+        .dinamarca .tres{
+            width: 63%;
+            height: 45%;
+            top: 0px;
+            right: 0px;
+            position: absolute;
+        }
+        .dinamarca .cuatro{
+            width: 63%;
+            height: 45%;
+            bottom: 0px;
+            right: 0px;
+            position: absolute;
+        }
+/*EMIRATOS*/
+        .emiratos{
+            position: relative;
+        }
+        .emiratos .e-rojo{
+            width: 25%;
+            height: 400px;
+            background-color: #ff0000;
+        }
+        .emiratos .e-verde{
+            width: 75%;
+            height: 33%;
+            background-color: #008000;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        .emiratos .e-negro{
+            width: 75%;
+            height: 33%;
+            background-color: #000;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+/*JAPON*/    
+        .japon{
+            padding-top: 100px;
+
+        }
+        .japon .circulo{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: auto;
+            
+            background-color: #ff0000;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="bandera espana">
+             <div class="rojo"></div>
+             <div class="amarillo"></div>
+             <div class="rojo"></div>
+        </div>
+        <div class="bandera dinamarca">
+            <div class="drojo uno"></div>
+            <div class="drojo dos"></div>
+            <div class="drojo tres"></div>
+            <div class="drojo cuatro"></div>
+        </div>
+        <div class="bandera emiratos">
+            <div class="e-rojo"></div>
+            <div class="e-verde"></div>
+            <div class="e-negro"></div>
+        </div>
+        <div class="bandera japon">
+            <div class="circulo"></div>
+        </div>
+    
+    </body>
+</html>
